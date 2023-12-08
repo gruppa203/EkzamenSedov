@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище bdSedovModelContainer" CdmEntityContainer="bdSedovEntities">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="bdSedovModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="nomer" ColumnName="nomer" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="ed" ColumnName="ed" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="maxSkidka" ColumnName="maxSkidka" />
+          <ScalarProperty Name="maker" ColumnName="maker" />
+          <ScalarProperty Name="postav" ColumnName="postav" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="skidka" ColumnName="skidka" />
+          <ScalarProperty Name="count" ColumnName="count" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="bdSedovModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
